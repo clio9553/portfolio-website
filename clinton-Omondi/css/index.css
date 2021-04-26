@@ -1,0 +1,104 @@
+.top-container {
+  height: 100vh;
+  width: 100%;
+  position: relative;
+  background: center no-repeat url("../images/cool-background.png");
+  background-size: cover;
+  background-blend-mode: multiply;
+  background-color: var(--accent-color);
+  z-index: 1;
+  line-height: 1;
+}
+.me-words {
+  position: absolute;
+  width: 100%;
+  top: 30%;
+}
+.top-container h1 {
+  font-size: 8rem;
+}
+@media (max-width: 400px) {
+  .top-container h1 {
+    font-size: 6rem;
+  }
+}
+.top-container h2 {
+  font-size: 2rem;
+  font-weight: normal;
+  font-family: "lobster";
+  color: #fefcfb;
+}
+
+.pro {
+  text-decoration: underline;
+  color: var(--main-color);
+}
+
+/* profile */
+.profile {
+  background: var(--accent-color);
+  padding:5rem 0;
+  color: white;
+
+}
+
+.profile img {
+  height: 11rem;
+  border-radius: 50%;
+  margin-left: auto;
+}
+
+.words {
+  text-align: left;
+  margin-right: auto;
+  margin-left: 30px;
+}
+
+/* skills */
+.skill-column {
+  width: 95%;
+  margin: 50px auto;
+  padding: 20px 10px;
+}
+.skill-title {
+  text-align: left;
+}
+.skill-column p,
+.skill-column h3 {
+  text-align: left;
+  line-height: 1.6;
+}
+
+.skills img {
+  height: 8rem;
+  margin: 10px auto;
+}
+
+/* hobbies */
+.hobby {
+  padding: 20px 10px;
+}
+
+.hobby-image {
+  height: 8rem;
+  margin-bottom: 15px auto;
+}
+
+.hobby-description {
+  text-align: left;
+}
+
+/* contact me */
+.contact-me {
+ display: inline-block;
+}
+.contact-me h1 {
+  font-size: 2rem;
+}
+.contact-me p {
+    margin: 0 auto;
+  text-align: center;
+}
+.contact-me h2{
+    text-align: center;
+}

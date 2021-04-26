@@ -1,0 +1,95 @@
+@media (min-width: 400px) {
+  .me-words {
+    position: absolute;
+    top: 40%;
+  }
+}
+
+@media (min-width: 800px) {
+  .top-container h1 {
+    font-size: 8rem;
+  }
+  .top-container h2 {
+    font-size: 3rem;
+  }
+.me-words {
+    position: absolute;
+    top: 45%;
+  }
+  .pro {
+    text-decoration: underline;
+  }
+
+  /* profile */
+  .profile {
+    display: flex;
+  }
+  .profile img {
+    height: 13rem;
+    border-radius: 8px;
+  }
+
+  .words {
+    padding: 0 0 20px 20px;
+  }
+
+  /* skills */
+  .skill-column {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .skills img {
+    margin: auto;
+  }
+
+  .skill-description {
+    margin-left: 30px;
+  }
+  .skill-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  /* hobbies */
+
+  .hobbies {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 50px auto;
+    gap: 2rem;
+  }
+
+  .hobby {
+    transition: transform 1s;
+    cursor: help;
+  }
+
+  .hobby:hover {
+    transform: translateY(-10px);
+  }
+
+  .hobby-image {
+    height: 10rem;
+  }
+
+  .hobby-description {
+    text-align: left;
+  }
+
+  /* contact me */
+
+  .contact-me h1 {
+    font-size: 3rem;
+  }
+}
+
+@media (min-width: 1000px) {
+  .hobbies {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 50px auto;
+    gap: 2.5rem;
+  }
+}
