@@ -1,0 +1,44 @@
+@media (min-width: 800px) {
+  .mail-form {
+    width: 80%;
+    background: url("../../images/home.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    margin: 20px auto;
+    text-align: left;
+  }
+
+  form {
+    margin-right: 0;
+    display: inline-block;
+  background-color: var(--dark-blue);
+    text-align: center;
+  }
+
+  textarea,
+  input {
+    border: none;
+    border-bottom: 1px white solid;
+    padding: 8px 0;
+    margin: 10px 0;
+    color: inherit;
+    background-color: transparent;
+    font: inherit;
+    width: 30em;
+    transition: border 250ms;
+  }
+  .names {
+    display: flex;
+    justify-content: space-between;
+  }
+  .name {
+    width: 12rem;
+  }
+  textarea:focus,
+  input:focus {
+    outline: none;
+    border-bottom: 1px var(--main-color) solid;
+  }
+}
