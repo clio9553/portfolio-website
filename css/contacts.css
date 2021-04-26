@@ -1,0 +1,33 @@
+.mail-form {
+  background-color: var(--dark-blue);
+  color: #fff;
+}
+
+
+form {
+  padding: 2rem 20px;
+}
+
+textarea,
+input {
+  border: none;
+  border-bottom: 1px white solid;
+  padding: 8px 0;
+  margin: 10px 0;
+  color: inherit;
+  background-color: transparent;
+  font: inherit;
+  width: 90%;
+  transition: border 250ms;
+}
+
+textarea:focus,
+input:focus {
+  outline: none;
+  border-bottom: 1px var(--main-color) solid;
+}
+
+.contact-options {
+  height: 200px;
+
+}
